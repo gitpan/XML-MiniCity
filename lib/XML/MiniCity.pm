@@ -9,7 +9,7 @@ use LWP::UserAgent;
 use Carp;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $AUTOLOAD;
 
 
@@ -65,7 +65,10 @@ sub AUTOLOAD {
 }
 
 
-1
+1;
+
+
+__END__
 
 
 =head1 NAME
